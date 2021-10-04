@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+/* HTML Elements */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    color: gray;
+}
+
+/* Headings */
+
+.title-main {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 3.3rem;
+    line-height: 1.5;
+    color: white;
+}
+
+.pricing-text {
+    font-weight: 650;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+.section-heading {
+    font-weight: 650;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Section */
+
+.color-section {
+    background-color: #1D2F6F;
+    color: white;
+}
+
+.white-section {
+    background-color: white;
+}
+
+/* Navigation Bar */
+
+.navbar {
+    padding-bottom: 4.5rem;
+
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat';
+    font-weight: 300;
+}
+
+/* Download Buttons */
+
+.download {
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+#title {
+    padding-bottom: 11%;
+    text-align: left;
+}
+
+.title-image {
+    width: 25%;
+    
+    position: absolute;
+    right: 300px;
+}
+
+/* Feature Section */
+
+#features {
+    padding: 4.5%;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-text {
+    font-weight: 700;
+    font-size: 1.438rem;
+    color: white;
+}
+
+.iconm {
+    font-size: 400%;
+    margin-bottom: 15px;
+    color: #8390FA;
+}
+
+.iconm:hover {
+    color: #ff4c68;
+}
+
+.featurest {
+    padding: 5%;
+}
+
+/* Testimonials Section */
+
+#testimonials {
+    background-color: #8390FA;
+    color: white;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.testi-img {
+    width: 10%;
+    border-radius: 100px;
+    margin: 2%;
+}
+
+.testi-text {
+    font-weight: 650;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Press Section */
+
+#press {
+    background-color: #8390FA;
+    padding-bottom: 70px;
+
+}
+
+.press-logo {
+    width: 10%;
+    margin: 30px 20px 10px;
+}
+
+/* Pricing Section */
+
+#pricing {
+    padding: 5%;
+}
+
+.pricing-columns {
+    padding: 5% 2%;
+}
+
+/* CTA Section */
+
+#cta {
+    padding: 10%;
+
+}
+
+.cta-content {
+    width: 80%;
+    padding: 0 0 0 40px;
+}
+
+.download7 {
+    position: relative;
+    top: 50px;
+}
+
+/* Footer Section */
+
+#footer {
+    padding: 5%;
+}
+
+.copyright {
+    margin-top: 30px;
+}
+
+.end {
+    margin-top: 30px;
+}
+
+.icon-copyright {
+    padding: 0 10px;
+}
+
+/* Responsive for Tablet and Phone */
+
+@media (max-width: 1160px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+        width: 60%;
+    }
+
+}
